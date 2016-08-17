@@ -10,4 +10,10 @@
 
 @interface Group : NSObject
 
+@property (copy, nonatomic) NSString *name;
+@property (copy, nonatomic) NSString *description;
+@property (copy, nonatomic) NSString *who;
+@property (copy, nonatomic) NSString *country;
+@property (copy, nonatomic) NSString *city;
+
 @end

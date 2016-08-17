@@ -10,4 +10,6 @@
 
 @implementation Group
 
+@synthesize description;
+
 @end

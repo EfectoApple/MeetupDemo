@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol MeetupCommunicatorDelegate;
+
 @interface MeetupCommunicator : NSObject
+
+@property (weak, nonatomic) id<MeetupCommunicatorDelegate> delegate;
+
+- (void)searchGroups;
 
 @end

@@ -10,4 +10,7 @@
 
 @protocol MeetupCommunicatorDelegate <NSObject>
 
+- (void)receivedGroupsJSON:(NSData *)objectNotation;
+- (void)fetchingGroupsFailedWithError:(NSError *)error;
+
 @end

@@ -10,4 +10,7 @@
 
 @protocol MeetupManagerDelegate <NSObject>
 
+- (void)didReceiveGroups:(NSArray *)groups;
+- (void)fetchingGroupsFailedWithError:(NSError *)error;
+
 @end
